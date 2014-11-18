@@ -2,54 +2,95 @@
 <html>
 <head>
   <title>Resume</title>
+  <link rel="stylesheet" href="resume.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-  <h2>Peng Gao</h2>
-  <a href="mailto:puerile22@gmail.com">puerile22@gmail.com</a><br>
-  <a href="https://github.com/puerile22">Github</a><br>
-  <a href="https://linkedin.com/in/penggao1">LinkedIn</a><br>
-  858.336.6358
-  <h2>SUMMARY</h2>
-  <p>Software engineer specializing in Ruby, Rails, Javascript and AngularJS. Comfortable with working in collaborative team environment. Extremely enthusiastic and motivated to learn and mentor others.</p>
-  <h2>SKILLS</h2>
-  <p>Ruby, Rails, Javascript, AngularJS, Jquery, Node.JS, Express, Socket.io, Underscore, Rspec, Jasmine, Sinatra, Postgresql, ActiveRecord, HTML, CSS, Foundation, Scss, Matlab</p>
+  <div class='head'>
+    <h1>Peng Gao</h1>
+    <a id='email' href="mailto:puerile22@gmail.com">puerile22@gmail.com</a><br>
+    <p id='phone'>(858)336-6358</p>
+  </div>
+  <div class='main'>
+    <h2>Summary</h2>
+    <p>Software engineer specializing in Ruby, Rails, Javascript and AngularJS. Comfortable with working in collaborative team environment. Extremely enthusiastic and motivated to learn and mentor others.</p>
+    <h2>Experience</h2>
+    <h3>MakerSquare</h3>
+    <h4 class='title'>Software Engineering Student</h4>
+    <p class='date'>08/2014-11/2014</p>
+    <p>High intensity, full-time, 12 week long web development accelerated learning program.<br>
+    Developed critical web development skills through instruction and individual and group projects.
+    Learned software eigineering principles and technical skills quickly and efficiently</p>
+    <h4 class="project">Project:</h4>
+    <p class='project'>Papalote</p><ul>
+      <li>Real time collaborative code editor with file sharing functionality.</li> 
+      <li>Technologies: AngularJS, Ruby, Rails, Node, Socket.io, Websocket Rails, Foundation, Git</li>
+      <li>Role: Both frontend and backend developer in nine person group, connect an Angular frontend to a Rails API and using Ace editor library and Websocket to create a real time collaborative code editor.</li>
+    </ul> 
+    <p class='website'>Website:  <a href="http://code.mks.io">code.mks.io</a></p>                                  
+    <p class='github'>Github:  <a href="https://github.com/makersquare/papalote">github.com/makersquare/papalote</a></p>
+    <p></p>
+    <p class='project'>Drankzzz</p><ul>
+      <li>Mixed drink recipe search platform. User can search for recipes based on recipe name, ingredients, color, occasion, taste.</li>
+      <li>Technologies: Node, Express, Socket.io, AbsoluteDrinks API, Git</li>
+      <li>Role: Co-developed, contributed on both the frontend and backend logic, set up node server and connected it with API and frontend to display search result.</li>
+    </ul> 
+    <p class='website'>Website: <a href="http://drankzmks.heroku.com">drankzmks.heroku.com</a></p>                
+    <p class='github'>Github: <a href="https://github.com/puerile22/drinks">github.com/puerile22/drinks</a></p>
+    <h3>University of California, San Diego</h3>       
+    <h4 class='title'>Graduate Research</h4><p class='date'>06/2013-09/2013</p>
+    <p>Using CAD software to create different shape of models of magnetic head suspension in hard drive, writing Matlab code to do finite element analysis on models, determine stress and strains in different working environments for all the models.</p>
+    <h2>Scholarship and awards</h2>
+    <p>2011 Merit Student, College of Mechanical & Electrical Engineering, BUCT-Academic excellence 
+    combined with exemplary character and leadership.<br>
+    2011 Third Prize Scholarship, BUCT-Top 10% GPA in the College.<br>
+    2010 Second-level Certificate for National Computer Rank Examination-C programming Certificate.</p>
+  </div>
+  <div class='side'>
+    <h2>Additional Info</h2>
+    <a href="https://github.com/puerile22">Github</a><br>
+    <a href="https://linkedin.com/in/penggao1">LinkedIn</a><br>
+    <h2>Skills</h2>
+      <ul>Ruby
+        <li>Rails<div class='star'><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div></li>
+        <li>Sinatra<div class='star'><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div></li>
+        <li>ActiveRecord<div class='star'><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div></li>
+        <li>Rspec<div class='star'><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div></li>
+      </ul>
+      <ul>Javascript
+        <li>AngularJS<div class='star'><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div></li>
+        <li>jQuery<div class='star'><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div></li>
+        <li>Node.js<div class='star'><i class="fa fa-star"></i><i class="fa fa-star"></i></div></li>
+        <li>Underscore<div class='star'><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div></li>
+        <li>Jasmine<div class='star'><i class="fa fa-star"></i><i class="fa fa-star"></i></div></li>
+      </ul>
+      <ul>Database
+        <li>PostgreSQL<div class='star'><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div></li>
+        <li>MongoDB<div class='star'><i class="fa fa-star"></i><i class="fa fa-star"></i></div></li>
+      </ul>
+      <ul>HTML/CSS
+        <li>Foundation<div class='star'><i class="fa fa-star"></i><i class="fa fa-star"></i></div></li>
+        <li>Scss<div class='star'><i class="fa fa-star"></i><i class="fa fa-star"></i></div></li>
+      </ul>
+      <ul>Version Control
+        <li>Git/Github<div class='star'><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div></li>
+      </ul>
+      <ul>Other
+        <li>Matlab</li>
+        <li>CAD</li>
+        <li>Ansys</li>
+        <li>LS-DYNA</li>
+      </ul>
+      <!-- <p>Ruby, Rails, Javascript, AngularJS, Jquery, Node.JS, Express, Socket.io, Underscore, Rspec, Jasmine, Sinatra, Postgresql, ActiveRecord, HTML, CSS, Foundation, Scss, Matlab, CAD</p> -->
+    <h2>Education</h2>
 
-  <h2>EXPERIENCE</h2>
-  <h4>MakerSquare</h4>                                                                                                                <p>08/2014-11/2014</p>
-  <p>60+ hours/week, 12 week long web development accelerated learning program</p>
-  <p>Developed critical web development skills through instruction and individual/group projects
-      Learned how to learn web development and technical skills quickly and efficiently</p>
-
-  <h4>Papalote</h4>
-  <p>Real time collaborative code editor with file sharing functionality. 
-  <p>Technologies: AngularJS, Ruby, Rails, Node, Socket.io, Websocket Rails, Foundation, Git</p>
-  <p>Role: Both frontend and backend developer in nine person group, connect an Angular frontend to a Rails API and using Ace editor library and Websocket to create a real time collaborative code editor.</p> 
-  <p>Website:  <a href="http://code.mks.io">code.mks.io</a></p>                                  
-  <p>Github:  <a href="https://github.com/makersquare/papalote">github.com/makersquare/papalote</a></p>
-
-  <h4>Drankzzz</h4>
-  <p>Mixed drink recipe search platform. User can search for recipes based on recipe name, ingredients, color, occasion, taste.</p>
-  <p>Technologies: Node, Express, Socket.io, AbsoluteDrinks API, Git</p>
-  <p>Role: Co-developed, contributed on both the frontend and backend logic, set up node server and connected it with API and frontend to display search result.</p> 
-  <p>Website: <a href="http://drankzmks.heroku.com">drankzmks.heroku.com</a></p>                
-  <p>Github: <a href="https://github.com/puerile22/drinks">github.com/puerile22/drinks</a></p>
-         
-  <h4>Graduate Research</h4>                                                                                                                       <p>06/2013-09/2013</p>
-  <p>Using CAD software to create different shape of models of magnetic head suspension in hard drive, writing Matlab code to do finite element analysis on models, determine stress and strains in different working environments for all the models.</p>
-  <h2>EDUCATION</h2>
-
-  <h4>UC San Diego</h4>                                                                                                                              <p>09/2012-06/2014</p>
-  <p>Department of Mechanical & Aerospace Engineering<br>
-  Master of Science in Mechanical Engineering<br>                            
-  GPA: 3.78</p><br>
-  <h4>Beijing University of Chemical Technology (BUCT), Beijing, China</h4>                                     <p>09/2008-07/2012</p>
-  <p>College of Mechanical & Electrical Engineering<br> 
-  Bachelor of Engineering in Safety Engineering</p>
-
-  <h2>Scholarship and awards</h2>
-  <p>2011 Merit Student, College of Mechanical & Electrical Engineering, BUCT-Academic excellence 
-  combined with exemplary character and leadership.<br>
-  2011 Third Prize Scholarship, BUCT-Top 10% GPA in the College.<br>
-  2010 Second-level Certificate for National Computer Rank Examination-C programming Certificate.</p>
+    <h4 class='title'>UC San Diego</h4><p class='date'>09/2012-06/2014</p>
+    <p>Department of Mechanical & Aerospace Engineering</p>
+    <p>MS in Mechanical Engineering<br>                            
+    GPA: 3.78</p><br>
+    <h4 class='title'>Beijing University of Chemical Technology (BUCT), Beijing, China</h4><p class='date'>09/2008-07/2012</p>
+    <p>School of Mechanical & Electrical Engineering</p>
+    <p>BS in Safety Engineering</p>
+  </div>
 </body>
 </html>
