@@ -2,17 +2,39 @@ body {
   margin-left: 1.875em;
   margin-right: 1.875em;
 }
+p {
+  font-size: 12px;
+}
+
+li {
+  font-size: 12px;
+}
 div {
   margin-left: 1.875em;
   margin-right: 0.938em;
 }
 
+h3 {
+  margin-bottom: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+h5 {
+  margin: 0;
+}
+
+h6 {
+  margin: 0;
+}
 .side {
   width:25%;
   float: right;
-  padding-left: 1.875em;
+  padding-left: 1.25em;
   border-left: solid;
-  margin-top: 2.188em;
+  margin-top: 0.25em;
 }
 
 .side p {
@@ -20,9 +42,9 @@ div {
 }
 
 .main {
-  width:60%;
+  width:57%;
   float:left;
-  margin-top: 2.188em;
+  margin-top: 0.25em;
 }
 
 .head {
@@ -39,6 +61,7 @@ div {
 #phone {
   float: right;
   margin-top: 0;
+  font-size: 16px;
 }
 
 .head h1 {
@@ -88,4 +111,9 @@ div {
   display: inline;
   margin-left: 0.313em;
   font-size: 0.625em;
+}
+
+h2 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
 }
